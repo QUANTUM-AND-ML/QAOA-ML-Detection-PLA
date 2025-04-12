@@ -27,7 +27,7 @@
 
 
 ## Quantum & Machine Learning
-Relevant scripts and data for the paper entitled "Rapidly Trainable and Shallow-Compiled Quantum Approximate Optimization Algorithm for Maximum Likelihood Detection"
+Relevant data for the paper entitled "Rapidly Trainable and Shallow-Compiled Quantum Approximate Optimization Algorithm for Maximum Likelihood Detection"
 
 ## Table of contents
 * [**Main work**](#Main-work)
