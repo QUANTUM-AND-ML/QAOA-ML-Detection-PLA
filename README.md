@@ -42,7 +42,7 @@ Relevant scripts and data for the paper entitled "Rapidly Trainable and Shallow-
 ## Main work
 In multiple-input and multiple-output (MIMO) systems, the maximum likelihood (ML) detection problem is NP-hard and becomes increasingly complex with more transmitting antennas and symbols. The quantum approximate optimization algorithm (QAOA), a leading candidate algorithm running in the noisy intermediate-scale quantum (NISQ) devices, can show quantum advantage for approximately solving combinatorial optimization problems. In this paper, we propose an improved QAOA based maximum likelihood detection. In the proposed scheme, we use ZX-calculus to prove the parameter symmetry in QAOA circuits, which can be used to reduce the search space and accelerate the training process. Moreover, to run QAOA on quantum devices, an improved qubit mapping method with simultaneous gate absorption is proposed, which can compile the quantum circuit of the QAOA to satisfy the connectivity constraints of real quantum devices with fewer CNOT counts. In numerical experiments, our scheme accelerates parameter training by an average of 29.8% and uses fewer CNOT gates and shallower circuit depth during compilation. This demonstrates that our scheme has significant advantages over the traditional scheme.
 <p align="center">
-<img src="figures/workflow.png" alt="Figure 1" width="800">
+<img src="figures/workflow.png" alt="Figure 1" width="600">
 </p>
 
 **Figure 1.** The specific workflow of the improved QAOA based ML detection.
