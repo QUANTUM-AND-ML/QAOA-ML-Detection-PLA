@@ -82,7 +82,9 @@ In multiple-input and multiple-output (MIMO) systems, the maximum likelihood (ML
 
 
 ## Citation
+```
 - 3.9 >= Python >= 3.7 (Python 3.10 may have the `concurrent` package issue for Qiskit)
 - Qiskit >= 0.36.1
 - Qiskit-aer >= 0.12.0
 - The calculation may require the large amount of RAM
+```
