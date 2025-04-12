@@ -36,7 +36,6 @@ Relevant scripts and data for the paper entitled "Rapidly Trainable and Shallow-
 * [**Main work**](#Main-work)
 * [**Our contributions**](#Our-contributions)
 * [**Results display**](#Results-display)
-* [**Python scripts**](#Python-scripts)
 * [**Dependencies**](#Dependencies)
 
 ## Main work
@@ -45,14 +44,12 @@ In multiple-input and multiple-output (MIMO) systems, the maximum likelihood (ML
 <img src="figures/workflow.png" alt="Figure 1" width="600">
 </p>
 
-**Figure 1.** The specific workflow of the improved QAOA based ML detection.
+**Figure 1.** The workflow of the improved QAOA based ML detection.
 
 ## Our contributions
-* We provide a **comprehensive scheme** for QAOA based ML detection, encompassing the transformation of the ML detection model, the construction and optimization of QAOA circuits, the training of circuit parameters, and numerical simulations incorporating real noise. This comprehensive scheme enables the decoding of received signals, laying the foundation for the practical use of QAOA in ML detection.
-* We derive a more **compact and universal analytical expression** for the cost function of the $1$-level QAOA, aiding in the analysis of solutions for small-scale problems with sparse channel matrices.
-* We propose an optimization algorithm for QAOA circuits used in ML detection problems, namely the **CNOT Gate Elimination and Circuit Parallelization algorithm**. This algorithm significantly reduces the number of error-prone CNOT gates and the circuit depth in QAOA, thus mitigating the noise impact during circuit execution.
-* We introduce a parameter initialization scheme based on the **Bayesian Optimization algorithm**, which learns high-quality initial parameters by optimizing a set of small-scale and classically simulable problem instances. Our initialization scheme accelerates the convergence of the cost function to lower minimum value and enhances resistance to circuit noise, greatly improving the probability of finding the optimal solution.
-* We provide a series of **numerical simulation** results to demonstrate the advantages and value of our proposed scheme.
+* Use ZX-calculus to demonstrate that the parameters in the quantum approximate optimization algorithm exhibit symmetry under specific conditions and utilize this symmetry to accelerate parameter training.
+* Propose a circuit optimization enhanced qubit mapping method to reduce the number of CNOT gates during circuit compilation.
+* Numerical simulations showcase the advantages of the proposed scheme, including accelerated parameter training and reduced CNOT gates and circuit depth during the compilation process.
 
 ## Results display
 
@@ -74,14 +71,6 @@ In multiple-input and multiple-output (MIMO) systems, the maximum likelihood (ML
 
 **Figure 4.** Comparing results and convergence speed of Random parameter initialization and Bayesian parameter initialization under circuit noise.
 
-
-## Python scripts
-Here is the **brief introduction** to each Python file for better understanding and usage:
-
-* "main.py" primarily includes the generation of **transmission signals**, addition of **AWGN noise**, **SNR**, and **channel matrixk**.
-* "circuit_noise.py" mainly involves the addition of noise from **real quantum devices** during quantum circuit simulation, including gate errors, T1 and T2 relaxation errors, and readout errors.
-* "circuit_optimization.py" primarily involves optimizing QAOA quantum circuits using the **CNOT Gate Elimination and Circuit Parallelization algorithm**, significantly reducing the number of CNOT gates and the depth of the circuit.
-* "parameter_optimization.py" primarily involves **the initialization and training of parameters** in QAOA circuits.
 
 ## Dependencies
 - 3.9 >= Python >= 3.7 (Python 3.10 may have the `concurrent` package issue for Qiskit)
