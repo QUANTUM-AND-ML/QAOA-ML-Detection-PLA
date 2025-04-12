@@ -10,9 +10,6 @@
     <a href="https://github.com/QUANTUM-AND-ML/QAOA-ML-Detection-PLA/blob/main/LICENSE">
         <img alt="MIT License" src="https://img.shields.io/github/license/QUANTUM-AND-ML/QAOA-ML-Detection">
     </a>
-    <a href="https://www.python.org/downloads/release/python-3813/">
-        <img alt="Version" src="https://img.shields.io/badge/Python-3.8-orange">
-    </a>
    <a href="https://github.com/QUANTUM-AND-ML/QAOA-ML-Detection-PLA/activity">
         <img alt="Activity" src="https://img.shields.io/github/last-commit/QUANTUM-AND-ML/QAOA-ML-Detection">
     </a>
