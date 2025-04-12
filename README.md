@@ -36,7 +36,7 @@ Relevant scripts and data for the paper entitled "Rapidly Trainable and Shallow-
 * [**Main work**](#Main-work)
 * [**Our contributions**](#Our-contributions)
 * [**Results display**](#Results-display)
-* [**Dependencies**](#Dependencies)
+* [**Citation**](#Citation)
 
 ## Main work
 In multiple-input and multiple-output (MIMO) systems, the maximum likelihood (ML) detection problem is NP-hard and becomes increasingly complex with more transmitting antennas and symbols. The quantum approximate optimization algorithm (QAOA), a leading candidate algorithm running in the noisy intermediate-scale quantum (NISQ) devices, can show quantum advantage for approximately solving combinatorial optimization problems. In this paper, we propose an improved QAOA based maximum likelihood detection. In the proposed scheme, we use ZX-calculus to prove the parameter symmetry in QAOA circuits, which can be used to reduce the search space and accelerate the training process. Moreover, to run QAOA on quantum devices, an improved qubit mapping method with simultaneous gate absorption is proposed, which can compile the quantum circuit of the QAOA to satisfy the connectivity constraints of real quantum devices with fewer CNOT counts. In numerical experiments, our scheme accelerates parameter training by an average of 29.8% and uses fewer CNOT gates and shallower circuit depth during compilation. This demonstrates that our scheme has significant advantages over the traditional scheme.
@@ -84,7 +84,7 @@ In multiple-input and multiple-output (MIMO) systems, the maximum likelihood (ML
 **Figure 6.** The process of quantum circuit optimization.
 
 
-## Dependencies
+## Citation
 - 3.9 >= Python >= 3.7 (Python 3.10 may have the `concurrent` package issue for Qiskit)
 - Qiskit >= 0.36.1
 - Qiskit-aer >= 0.12.0
