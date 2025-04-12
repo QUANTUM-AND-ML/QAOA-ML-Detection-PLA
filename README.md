@@ -69,6 +69,17 @@ In multiple-input and multiple-output (MIMO) systems, the maximum likelihood (ML
 <img src="figures/figure3.png" alt="Figure 4" width="700">
 </p>
 
+**Figure 5.** Comparing results and convergence speed of Random parameter initialization and Bayesian parameter initialization under circuit noise.
+
+<p align="center">
+<img src="figures/figure4.png" alt="Figure 5" width="700">
+</p>
+
+**Figure 6.** Comparing results and convergence speed of Random parameter initialization and Bayesian parameter initialization under circuit noise.
+<p align="center">
+<img src="figures/figure5.png" alt="Figure 6" width="700">
+</p>
+
 **Figure 4.** Comparing results and convergence speed of Random parameter initialization and Bayesian parameter initialization under circuit noise.
 
 
