@@ -27,7 +27,7 @@
 
 
 ## Quantum & Machine Learning
-Relevant data for the paper entitled "Rapidly Trainable and Shallow-Compiled Quantum Approximate Optimization Algorithm for Maximum Likelihood Detection(https://www.sciencedirect.com/science/article/pii/S0375960125003214)"
+Relevant data for the paper entitled "## Rapidly Trainable and Shallow-Compiled Quantum Approximate Optimization Algorithm for Maximum Likelihood Detection(https://www.sciencedirect.com/science/article/pii/S0375960125003214)"
 
 ## Table of contents
 * [**Main work**](#Main-work)
