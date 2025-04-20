@@ -83,13 +83,12 @@ In multiple-input and multiple-output (MIMO) systems, the maximum likelihood (ML
 
 ## Citation
 ```
-@article{LIU2025130541,
-title = {Rapidly Trainable and Shallow-Compiled Quantum Approximate Optimization Algorithm for Maximum Likelihood Detection},
-journal = {Physics Letters A},
-pages = {130541},
-year = {2025},
-issn = {0375-9601},
-doi = {https://doi.org/10.1016/j.physleta.2025.130541},
-url = {https://www.sciencedirect.com/science/article/pii/S0375960125003214},
-author = {Yuxiang Liu and Yinuo Qian and Lu Wang and Zaichen Zhang and Xutao Yu}}
+@article{liu2025rapidly,
+  title={Rapidly Trainable and Shallow-Compiled Quantum Approximate Optimization Algorithm for Maximum Likelihood Detection},
+  author={Liu, Yuxiang and Qian, Yinuo and Wang, Lu and Zhang, Zaichen and Yu, Xutao},
+  journal={Physics Letters A},
+  pages={130541},
+  year={2025},
+  publisher={Elsevier}
+}
 ```
